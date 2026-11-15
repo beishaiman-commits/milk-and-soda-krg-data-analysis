@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/34867459/README.md)# Price Tracker KZ 🛒
+# Price Tracker KZ 🛒
 
 Парсер и анализ цен на продукты в двух магазинах Караганды: где реально дешевле и как цены меняются со временем.
 
@@ -6,7 +6,7 @@
 
 ## Демо
 
-![Дашборд](images/dashboard.png)
+![Дашборд](Снимок экрана 2026-11-15 104944.png)
 
 
 ![Стоимость корзины по дням](chart_basket.png)
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 **1. Собрать цены** (запускать раз в день):
 
 ```bash
-python price_parser.py
+python ff.py
 ```
 
 Результат дописывается в `tobaza.csv`. Между запросами к сайтам стоит пауза в 1 секунду.
