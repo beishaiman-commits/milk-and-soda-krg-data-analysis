@@ -1,6 +1,0 @@
-streamlit
-pandas
-altair
-matplotlib
-requests
-beautifulsoup4
